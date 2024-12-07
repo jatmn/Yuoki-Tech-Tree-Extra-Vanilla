@@ -417,14 +417,15 @@ table.insert(tiers,
 					recipe = "y_richemulsion"
 				},	
 			},
-			prerequisites = {"yi-raw-materials", "fluid-handling"},
+			prerequisites = {"yi-raw-materials", "fluid-handling", "chemical-science-pack"},
 			unit =
 			{
 			  count = 200,
 			  ingredients =
 			  {
 				{"automation-science-pack", 1},
-				{"logistic-science-pack", 1}
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1}
 			  },
 			  time = 60
 			},
@@ -495,7 +496,7 @@ table.insert(tiers,
 				recipe = "y-mud-wall"
 			  },
 			},
-			prerequisites = {"stone-wall", "yi-intermediates"},
+			prerequisites = {"stone-wall", "yi-raw-materials"},
 			unit =
 			{
 			  count = 50,
@@ -526,7 +527,8 @@ table.insert(tiers,
 			  ingredients =
 			  {
 				{"automation-science-pack", 1},
-				{"logistic-science-pack", 1}
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1}
 			  },
 			  time = 30
 			},
@@ -760,7 +762,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-walls",
 			icon = "__Yuoki__/graphics/icons/rareore-wall-icon.png",
-			icon_size = 64, prerequisites = {"yi-brick-wall", "yi-intermediates"},
+			icon_size = 64, prerequisites = {"yi-brick-wall"},
 			effects =
 			{
 			  {
@@ -840,6 +842,7 @@ table.insert(tiers,
 			  {
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1}
 			  },
 			  time = 30
 			},
@@ -944,7 +947,7 @@ table.insert(tiers,
 			},
 			unit =
 			{
-			  count = 100,
+			  count = 200,
 			  ingredients =
 			  {
 				{"automation-science-pack", 1},
@@ -1186,8 +1189,9 @@ table.insert(tiers,
 			{
 				count = 300,
 				ingredients = {
-					{ "automation-science-pack", 1},
-					{ "logistic-science-pack", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 30
 			},
@@ -1331,6 +1335,7 @@ table.insert(tiers,
 			  {
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1}
 			  },
 			  time = 30
 			},
@@ -1405,6 +1410,7 @@ table.insert(tiers,
 			  {
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1}
 			  },
 			  time = 30
 			},
@@ -1424,7 +1430,7 @@ table.insert(tiers,
 			},
 			unit =
 			{
-			  count = 100,
+			  count = 200,
 			  ingredients =
 			  {
 				{"automation-science-pack", 1},
@@ -1458,8 +1464,9 @@ table.insert(tiers,
 				count = 50,
 				ingredients = 
 				{
-					{ "automation-science-pack", 1},
-					{ "logistic-science-pack", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 30
 			},
@@ -1544,8 +1551,8 @@ table.insert(tiers,
 		{
 			type = "technology",
 			name = "yi-advanced-power",
-			icon = "__Yuoki__/graphics/icons/obninsk-reactor-icon.png",
-			icon_size = 64, prerequisites = {"nuclear-power", "yi-advanced-machines"},
+			icon = "__Yuoki__/graphics/entity/energy-t2/seg_icon.png",
+			icon_size = 64, prerequisites = {"yi-advanced-machines", "yi-power"},
 			effects =
 			{
 				{
@@ -1567,63 +1574,7 @@ table.insert(tiers,
 				{
 					type = "unlock-recipe",
 					recipe = "y-heg"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y-obninsk-reactor"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y-obninsk-turbine"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_moxmixer"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "yi_graphite"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_mox1mixed"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_mox2mixed"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_mox1fuel"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_mox2fuel"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_mox2fuel"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_reactor_mf1"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_reactor_mox1"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_reactor_mox2"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y_mox2fuelsplit"
-				},
-				{
-					type = "unlock-recipe",
-					recipe = "y-fuel-reactor"
-				},				
+				},	
 			},
 			unit =
 			{
@@ -2028,7 +1979,7 @@ table.insert(tiers,
 		{
 			type = "technology",
 			name = "yi-hard-walls",
-			icon = "__Yuoki__/graphics/icons/rareore-wall-icon.png",
+			icon = "__Yuoki__/graphics/entity/walls/wall_hardic_icon.png",
 			icon_size = 64, prerequisites = {"yi-adv-walls", "yi-intermediates"},
 			effects =
 			{
@@ -2265,7 +2216,8 @@ table.insert(tiers,
 					{"automation-science-pack", 1},
 					{"logistic-science-pack", 1},
 					{"chemical-science-pack", 1},
-					{"utility-science-pack", 1},
+					{"production-science-pack", 1},
+					{"utility-science-pack", 1}
 				},
 				time = 30
 			},
@@ -2418,7 +2370,7 @@ table.insert(tiers,
 					recipe = "yi_beacon",
 				},
 			},
-			prerequisites = {"yi-advanced-power"},
+			prerequisites = {"yi-advanced-nuclear-power"},
 			unit =
 			{
 			  count = 600,
@@ -2508,6 +2460,83 @@ table.insert(tiers,
 				{"logistic-science-pack", 1},
 				{"chemical-science-pack", 1},
 				{"military-science-pack", 1}
+			  },
+			  time = 30
+			},
+			order = "y"
+		},
+		{
+			type = "technology",
+			name = "yi-advanced-nuclear-power",
+			icon = "__Yuoki__/graphics/icons/obninsk-reactor-icon.png",
+			icon_size = 64, prerequisites = {"nuclear-power", "yi-advanced-machines", "yi-advanced-power"},
+			effects =
+			{
+				{
+					type = "unlock-recipe",
+					recipe = "y-obninsk-reactor"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-obninsk-turbine"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_moxmixer"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "yi_graphite"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_mox1mixed"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_mox2mixed"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_mox1fuel"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_mox2fuel"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_mox2fuel"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_reactor_mf1"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_reactor_mox1"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_reactor_mox2"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y_mox2fuelsplit"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-fuel-reactor"
+				},				
+			},
+			unit =
+			{
+			  count = 1600,
+			  ingredients =
+			  {
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1}
 			  },
 			  time = 30
 			},

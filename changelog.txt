@@ -135,19 +135,32 @@ Date:2024.12.06
 Version: 1.1.7
 Date:2024.12.08
   Changes:
+	-Yuoki Ore Processing tech now requires Chemical science packs.
+	-Yuoki Mining tech now requires Chemical science packs.
+	-Yuoki Underground Mining tech now requires Chemical science packs.
+	-Yuoki Electric Machines tech now requires Chemical science packs.
+	-Yuoki Flywheel Energy Storage tech now requires Chemical science packs.
+	-Yuoki Advanced Machines tech now requires Chemical Science packs.
+	-Yuoki Fluid Handling 2 tech doubled science pack cost.
+	-Yuoki Fluid Handling 3 tech now requires Chemical Science packs.
+	-Renamed Yuoki Brick Wall technology to Yuoki Brick Walls.
+	-Yuoki Brick Walls technolog now requires Yuoki Raw Material Processing instead of Yuoki Components.
 	-Separated Yuoki Walls further in the tech tree so one tech doesn't unlock multiple types
 	-Yuoki Walls tech now requires Logistic Science packs. Now only unlocks Durotal Walls.
-	-New tech, Yuoki Advanced Walls, requires Yuoki Brick Wall, and Automation, Logistic, and Military science packs. Unlocks Krakon Walls.
+	-New tech, Yuoki Advanced Walls, requires Yuoki Brick Walls, and Automation, Logistic, and Military science packs. Unlocks Krakon Walls.
 	-New Tech, Yuoki Hard Walls, requires Yuoki Advanced Walls & Yuoki Components, and Automation, Logistic, Military, and Chemical Science packs. Unlocks Hardic Wall.
 	-New Tech, Yuoki Force Field Walls, requires Energy Shield Equipment research & Yuoki Advanced Walls & Yuoki Components, and Automation, Logistic, Military, and Chemical Science packs. Unlocks Passive Vitduo Defense System.
 	-Yuoki Ammo Turrets tech no longer requires Yuoki Walls tech, instead Gun Turret tech is required. Tech also now requires Yuoki Components tech.
-	-Yuoki Mastercrafted Machines tech now requires 1000 science packs, and requires Chemical, Utility science packs in addition to Automation, and Logistic science packs.
+	-Yuoki Mastercrafted Machines tech now requires 1000 science packs, and requires Chemical, Production, Utility science packs in addition to Automation, and Logistic science packs.
 	-Yuoki Electric Turrets now only unlocks T-LAS Eisenwulf Turret. No longer requires Yuoki Walls tech.
 	-New Tech Yuoki Hardened Laser Turret, requires Yuoki Hard Walls tech. Unlocks D-LAS Bonsai Turret.
 	-New Tech Yuoki Plasma Turret, unlocks T-PLASMA Turret.
-	-New Tech Yuoki ZTT Turret, unlocks ZTT
+	-New Tech Yuoki ZTT Turret, unlocks D-ZTT jorgenRe Turret.
 	-Yuoki Solar Energy now requires Chemical Science packs.
 	-Yuoki Solar Energy 2 is now known as Yuoki Concentrated Solar Collector tech, and requires Chemical, and Utility Science Packs.
 	-Yuoki Modules now requires Productivity Module, Efficiency Module, and Speed Module techs instead of Modules tech, and now requires Chemical Science packs. Doubled tech cost.
 	-Yuoki Advanced Modules now requires Productivity Module 2, Efficiency Module 2, and Speed Module 2 techs.
+	-Yuoki Advanced Power now requires Yuoki Power tech instead of Nuclear Power tech. Removed Obnisk Reaktor AM-1/1951, Rensuir Turbine, Fusion Fuel Mixer and related recipes from tech.
+	-New Tech Yuoki Advanced Nuclear Power, requires Yuoki Advanced Power tech & Nuclear Power tech. Unlocks Obnisk Reaktor AM-1/1951, Rensuir Turbine, Fusion Fuel Mixer, and related recipes.
+	-Yuoki Atomics now requires Yuoki Advanced Nuclear Power tech instead of Yuoki Advanced Power.
 ---------------------------------------------------------------------------------------------------

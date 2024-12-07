@@ -79,7 +79,8 @@ local yi_core_techs = {
 "yi-electric-energy-accumulators-3",
 "yi-electric-energy-accumulators-4",
 "yi-electric-energy-accumulators-5",
-"yi-ztt-turret"
+"yi-ztt-turret",
+"yi-advanced-nuclear-power"
 
 }
 
