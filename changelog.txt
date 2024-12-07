@@ -125,3 +125,29 @@ Date:2022.05.22
 	-Changed Yuoki Railways Steam Engines tech so it requires Automation 2 tech, and Advanced Material Processing tech. It now unlocks Locomotive workshop, Train Material Factory, and Cargo-wagon workshop.
 	Increased tech cost to 300. Changed icon to Locomotive workshop icon.
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date:2024.12.06
+  Changes:
+	-Updated for 2.0
+	-Several bugs present, such as icon sizes
+	-Some new recipes/changed recipes in recent Yuoki updates not caught so not in tech tree yet
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date:2024.12.08
+  Changes:
+	-Separated Yuoki Walls further in the tech tree so one tech doesn't unlock multiple types
+	-Yuoki Walls tech now requires Logistic Science packs. Now only unlocks Durotal Walls.
+	-New tech, Yuoki Advanced Walls, requires Yuoki Brick Wall, and Automation, Logistic, and Military science packs. Unlocks Krakon Walls.
+	-New Tech, Yuoki Hard Walls, requires Yuoki Advanced Walls & Yuoki Components, and Automation, Logistic, Military, and Chemical Science packs. Unlocks Hardic Wall.
+	-New Tech, Yuoki Force Field Walls, requires Energy Shield Equipment research & Yuoki Advanced Walls & Yuoki Components, and Automation, Logistic, Military, and Chemical Science packs. Unlocks Passive Vitduo Defense System.
+	-Yuoki Ammo Turrets tech no longer requires Yuoki Walls tech, instead Gun Turret tech is required. Tech also now requires Yuoki Components tech.
+	-Yuoki Mastercrafted Machines tech now requires 1000 science packs, and requires Chemical, Utility science packs in addition to Automation, and Logistic science packs.
+	-Yuoki Electric Turrets now only unlocks T-LAS Eisenwulf Turret. No longer requires Yuoki Walls tech.
+	-New Tech Yuoki Hardened Laser Turret, requires Yuoki Hard Walls tech. Unlocks D-LAS Bonsai Turret.
+	-New Tech Yuoki Plasma Turret, unlocks T-PLASMA Turret.
+	-New Tech Yuoki ZTT Turret, unlocks ZTT
+	-Yuoki Solar Energy now requires Chemical Science packs.
+	-Yuoki Solar Energy 2 is now known as Yuoki Concentrated Solar Collector tech, and requires Chemical, and Utility Science Packs.
+	-Yuoki Modules now requires Productivity Module, Efficiency Module, and Speed Module techs instead of Modules tech, and now requires Chemical Science packs. Doubled tech cost.
+	-Yuoki Advanced Modules now requires Productivity Module 2, Efficiency Module 2, and Speed Module 2 techs.
+---------------------------------------------------------------------------------------------------

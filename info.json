@@ -1,12 +1,12 @@
 {
   "name": "Yi_Tech_Tree_ExtraVanilla",
-  "version": "1.1.5",
-  "factorio_version": "1.1",
+  "version": "1.1.7",
+  "factorio_version": "2.0",
   "dependencies": [
-  "base >= 0.17", 
+  "base >= 2.0.20", 
   "! Yi_Tech_Tree >= 0.14.10", 
-  "Yuoki >= 0.5.64", 
-  "? yi_engines >= 0.5.21",
+  "Yuoki >= 1.2.0", 
+  "? yi_engines >= 1.2.1",
   "? yi_railway >= 1.1.28"
   ],
   "title": "Yuoki Tech Tree Extra Vanilla",

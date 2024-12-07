@@ -1,4 +1,4 @@
-require("technology.yi_core")
+require("prototypes.technology.yi_core")
 
 
 
@@ -46,11 +46,12 @@ local yi_core_techs = {
 "yi-artillery-shell",
 "yi-ammo-turrets-2",
 "yi-fluid-handling-2",
-"yi-solar-energy-2",
+"yi-solar-concentrated-solar-collector",
 "yi-electric-energy-distribution-1",
 "yi-electric-energy-accumulators-1",
 "yi-flywheel-energy-storage",
 "yi-underground-mining",
+"yi-adv-walls",
 
 "yi-advanced-modules",
 "yi-logistics-research",
@@ -64,6 +65,10 @@ local yi_core_techs = {
 "yi-fluid-handling-3",
 "yi-electric-energy-distribution-2",
 "yi-electric-energy-accumulators-2",
+"yi-hard-walls",
+"yi-forcefield-walls",
+"yi-hardened-laser-turret",
+"yi-plasma-turret",
 
 "yi-smelting",
 "yi-ultimate-reputation",
@@ -73,12 +78,13 @@ local yi_core_techs = {
 "yi-electric-energy-distribution-3",
 "yi-electric-energy-accumulators-3",
 "yi-electric-energy-accumulators-4",
-"yi-electric-energy-accumulators-5"
+"yi-electric-energy-accumulators-5",
+"yi-ztt-turret"
 
 }
 
 if data.raw.recipe["ye_sturbine_recipe"] ~= nil then
-	require("technology.yi_engines")
+	require("prototypes.technology.yi_engines")
 
 	-- List of Engines Techs
 	local yi_engines_techs = {
@@ -115,7 +121,7 @@ if data.raw.recipe["ye_sturbine_recipe"] ~= nil then
 end
 
 if data.raw.recipe["yir_frame_loco_steam_recipe"] ~= nil then
-	require("technology.yi_railways")
+	require("prototypes.technology.yi_railways")
 
 	-- List of Engines Techs
 	local yi_railways_techs = {
