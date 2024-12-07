@@ -1,0 +1,127 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date:2021.10.31
+  Changes:
+    -Rebalanced Yuoki Player Equipment tech.
+    -Added equivalent Vanilla techs to Yuoki Player Equipment tech requirements.
+    -Rebalanced Yuoki Power Armor tech.
+    -Yuoki Basic Power now requires Yuoki Fluid Handling.
+    -Yuoki Basic Power now provides Boiler 3M6/4.
+    -Rebalanced Yuoki Basic Power.
+    -Rebalanced Yuoki Power.
+    -Added Yuoki Automation 4 through 6, to introduce the Y1 to Y3 Factories provided by Yuoki Engines mod. Removed these items from Intermediate Mechanical Force tech.
+    -Yuoki Electric Turrets tech now requires Laser Turrets tech.
+    -Rebalanced Yuoki Electric Turrets.
+    -Yuoki Advanced Item Transport tech now requires Logistics 3 tech.
+    -Rebalanced Yuoki Advanced Item Transport tech.
+    -Yuoki Advanced Power tech now requires Nuclear Power tech.
+    -Rebalanced Yuoki Advanced Power tech.
+    -Rebalanced Yuoki Advanced Modules tech.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date:2021.11.01
+  Changes:
+    -Moved Obninsk Reactor Cell from Yuoki Components tech to Yuoki Advanced Power tech.
+	-Yuoki Atomics tech now requires Yuoki Advanced Power tech.
+	-Rebalanced Yuoki Atomics.
+	-Rebalanced all techs requiring Yuoki Atomics.
+	-Yuoki Science Exchange tech now requires Space Science Pack tech.
+	-Yuoki Oil from Coal/Organics tech now requires Coal Liquefaction tech instead of Yuoki Unicomp Oil Products tech.
+	-Rebalanced Yuoki Oil from Coal/Organics tech.
+	-Added Yuoki Water Sulfurication tech, requires Sulfur Processing.
+	-Moved Sulfuric Acid from Toxic Dust/Water recipe from Yuoki Washing Raw Materials tech to Yuoki Water Sulfurization tech.
+	-Changed Yuoki Power icon to 1.8-MS-Turbine-S icon since Boiler 3M6/4 was moved to Yuoki Basic Power tech.
+	-Yuoki DNA Manipulation tech now requires Yuoki Automation 5 tech.
+	-Rebalanced Yuoki DNA Manipulation tech.
+	-Yuoki Trade Market tech now requires Yuoki Automation 4 tech.
+	-Rebalanced Yuoki Trade Market tech.
+	-Relevant recipes from Yuoki Trade Market tech will be moved to Yuoki DNA Manipulation tech when mod maker loops their head around them.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date:2021.11.07
+  Changes:
+	-Added Yuoki DNA Trading tech, this tech was introduced to provide a sane place for the recipes
+	that were going to be moved from Yuoki Trade Market tech to Yuoki DNA Manipulation tech.
+    -Yuoki Trade Market tech now requires Yuoki Basic Farming tech.
+	-Moved recipes from Yuoki Trade Market tech to Yuoki DNA Trading tech.
+	-Yuoki Intermediate Mechanical Force tech now requires Lubricant tech, and Oil Processing tech. No longer requires Circuit Network tech.
+	-Moved all Solid Fuel Engine related technologies to Yuoki Intermediate Mechanical Force tech.
+	-Added Yuoki Research tech.
+	-Moved Research Center recipe, and Science Sign recipe from Yuoki Intermediate Mechanical Force to Yuoki Research tech.
+	-Added Yuoki Advanced Mechanical Force tech.
+	-Moved recipes from Yuoki Basic Mechanical Force, and Yuoki Intermediate Mechanical Force that involved Science signs to Yuoki Advanced Mechanical Force tech.
+	-Moved Liquid Fuel Engine recipe from Yuoki Quantum Mechanical Force tech to Yuoki Advanced Mechanical Force tech.
+	-Moved Liquid Fuel Engine related recipes from Yuoki Basic Mechanical Force tech to Yuoki Advanced Mechanical Force tech.
+	-Yuoki Quantum Mechanical Force tech now requires Yuoki Research tech, and Yuoki Atomics tech.
+	-Added Yuoki Fluid Handling 2 tech.
+	-Moved recipes from Yuoki Fluid Handling tech to Yuoki Fluid Handling 2 tech that require Pressure Proof Elements or Durotal Structure Elements.
+	-Moved Medium Water Generator recipe from Yuoki Advanced Machines tech to Yuoki Advanced Mechanical Force tech.
+	-Added Yuoki Fluid Handling 3 tech.
+	-Moved Underground Tank 50 kFU/33 recipe from Yuoki Advanced Machines tech to Yuoki Fluid Handling 3 tech.
+	-Yuoki Portable Fluids tech now requires Yuoki Intermediate Mechanical Force tech instead of Yuoki Basic Mechanical Force tech, and Yuoki Ranching instead of Yuoki Farming. 
+	Added Yuoki Fluid Handling as a requirement.
+	-Moved Alien Infuser, and related recipes from Yuoki Advanced Machines tech to Yuoki Atomics tech.
+	-Yuoki Advanced Ore Washing and Processing tech now requires Yuoki Inserters tech.
+	-Yuoki Ore Processing now requires Fluid Processing Tech. Changed icon to Crystalizer icon.
+	-Added Yuoki Mining tech.
+	-Moved YI E2 Mining Drill from Yuoki Ore Processing tech to Yuoki Mining tech.
+	-Added Yuoki Drying & Separation tech.
+	-Moved Dryer & Separator recipe from Yuoki Ore Processing tech to Yuoki Drying & Separation tech.
+	-Yuoki Reputation tech now requires Yuoki Atomics tech instead of Yuoki Advanced Machines tech.
+	-Added Yuoki Solar Energy tech.
+	-Moved Sun-Powered Stirling Solar Engine recipe from Yuoki Electric Machines tech to Yuoki Solar Energy tech.
+	-Added Yuoki Underground Mining tech.
+	-Moved Special Underground Drill recipe, and related recipes from Yuoki Electric Machines tech to Yuoki Underground Mining tech.
+	-Added Yuoki Solar Energy 2 tech.
+	-Changed Yuoki Power so it requires Oil Processing tech instead of Advanced Electronics tech. Removed Yuoki Components requirement since preceding tech requires it. Removed Solar Energy requirement.
+	-Moved Tiny Sol-Ray Stream Collector from Yuoki Power tech to Yuoki Solar Energy 2 tech.
+	-Changed Yuoki Electric Machines so it no longer requires Engine tech, preceding techs already have that requirement. Changed icon to Electric Crusher.
+	-Added Yuoki Electric Energy Distribution 1 tech.
+	-Added Yuoki Electric Energy Distribution 2 tech.
+	-Added Yuoki Electric Energy Distribution 3 tech.
+	-Moved Martin's Signal Connector recipe from Yuoki Power tech to Yuoki Electric Energy Distribution 1 tech.
+	-Moved Modified Substation St-a Recipe from Yuoki Power tech to Yuoki Electric Energy Distribution 2 tech.
+	-Moved AEET Substation from Yuoki Advanced Machines tech to Yuoki Electric Energy Distribution 3 tech.
+	-Added Yuoki Electric Energy Accumulators 1 tech.
+	-Added Yuoki Electric Energy Accumulators 2 tech.
+	-Added Yuoki Electric Energy Accumulators 3 tech.
+	-Added Yuoki Electric Energy Accumulators 4 tech.
+	-Added Yuoki Electric Energy Accumulators 5 tech.
+	-Added Yuoki Flywheel Energy Storage tech.
+	-Moved UPS Flywheel recipe from Yuoki Power tech to Yuoki Flywheel Energy Storage tech.
+	-Moved Accumulator recipes from Yuoki Power tech to Yuoki Electric Energy Accumulators techs.
+	-Moved Accumulator recipes from Yuoki Advanced Machines tech to Yuoki Electric Energy Accumulators 4 tech.
+	-Changed Yuoki Advanced Machines tech so it no longer requires Electric Motor tech. None of the recipes in that tech require them. Also removed Yuoki Fluid Handling, and Yuoki Power requirements.
+	-Moved AQE Accumulator, and Quantrinium Accumulator recipes from Yuoki Advanced Machines tech to Yuoki Electric Energy Accumulators 5 tech.
+	-Rebalanced Yuoki Power tech.
+	-Rebalanced Yuoki Advanced Machines tech.
+	-Rebalanced Yuoki Ore Processing tech.
+	-Rebalanced Yuoki Advanced Ore Washing and Processing tech.
+	-Rebalanced Yuoki Smelting tech.
+	-Rebalanced Yuoki Basic Mechanical Force tech.
+	-Rebalanced Yuoki Intermediate Mechanical Force tech.
+	-Rebalanced Yuoki Quantum Mechanical Force tech.
+	-Rebalanced Yuoki Farming tech.
+	-Rebalanced Yuoki Ranching tech.
+	-Reblaanced Yuoki Portable Fluids tech.
+	-Rebalanced Yuoki DNA Manipulation tech.
+	-Rebalanced Yuoki Reputation tech.
+	-Rebalanced Yuoki Reputation Ultimate tech.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date:2021.12.05
+  Changes:
+	-Yuoki Smelting tech now requires Yuoki Advanced Machines tech.
+	-Rebalanced Yuoki Smelting tech.
+	-Fixed oversight where Yuoki Electric Energy Accumulators & Energy Distribution techs that require Electric Energy Distribution 2 did not require Chemical Science packs.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date:2022.05.22
+  Changes:
+	-Yuoki Engines Gas-Fuel-Engine now requires Yuoki Intermediate Mechanical Force tech.
+	-Rheinsberg reactor related Steam recipes now require Yuoki Quantum Mechanical Force tech.
+	-Yuoki Railways Tile Factory, and related tiles now have techs to unlock them.
+	-Green pipes now require Yuoki Fluid Handling tech.
+	-Changed Yuoki Railways Steam Engines tech so it requires Automation 2 tech, and Advanced Material Processing tech. It now unlocks Locomotive workshop, Train Material Factory, and Cargo-wagon workshop.
+	Increased tech cost to 300. Changed icon to Locomotive workshop icon.
+---------------------------------------------------------------------------------------------------
