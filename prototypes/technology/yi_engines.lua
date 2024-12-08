@@ -45,7 +45,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-basic-mechanical-force",
 			icon = "__yi_engines__/graphics/entity/pump-icon.png",
-			icon_size = 64, prerequisites = {"yi-intermediates", "engine"},
+			icon_size = 32, prerequisites = {"yi-intermediates", "engine"},
 			effects =
 			{
 				{
@@ -159,7 +159,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-intermediate-mechanical-force",
 			icon = "__yi_engines__/graphics/entity/energy2/sfe-icon.png",
-			icon_size = 64, prerequisites = {"yi-basic-mechanical-force", "yi-basic-machines", "lubricant", "oil-processing"},
+			icon_size = 32, prerequisites = {"yi-basic-mechanical-force", "yi-basic-machines", "lubricant", "oil-processing"},
 			effects =
 			{
 				{
@@ -207,7 +207,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-basic-farming",
 			icon = "__yi_engines__/graphics/entity/farm-icon.png",
-			icon_size = 64, prerequisites = {"yi-basic-mechanical-force","yi-basic-machines"},
+			icon_size = 32, prerequisites = {"yi-basic-mechanical-force","yi-basic-machines"},
 			effects =
 			{
 			  {
@@ -289,7 +289,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-basic-transport",
 			icon = "__yi_engines__/graphics/icons/ubo_icon.png",
-			icon_size = 64, prerequisites = {"yi-basic-mechanical-force"},
+			icon_size = 32, prerequisites = {"yi-basic-mechanical-force"},
 			effects =
 			{
 			  {
@@ -329,7 +329,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-basic-ranching",
 			icon = "__yi_engines__/graphics/entity/cage_empty_icon.png",
-			icon_size = 64, prerequisites = {"yi-basic-farming"},
+			icon_size = 32, prerequisites = {"yi-basic-farming"},
 			effects =
 			{
 			  {
@@ -373,7 +373,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-automation-4",
 			icon = "__yi_engines__/graphics/entity/factory_var_1_icon.png",
-			icon_size = 64, prerequisites = {"yi-intermediate-mechanical-force", "automation-3"},
+			icon_size = 32, prerequisites = {"yi-intermediate-mechanical-force", "automation-3"},
 			effects =
 			{
 			  {
@@ -399,7 +399,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-research",
 			icon = "__yi_engines__/graphics/entity/science_gen_icon.png",
-			icon_size = 64, prerequisites = {"yi-automation-4"},
+			icon_size = 32, prerequisites = {"yi-automation-4"},
 			effects =
 			{
 				{
@@ -436,7 +436,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-fluid-handling-mechanical-force",
 			icon = "__yi_engines__/graphics/canister.png",
-			icon_size = 64, prerequisites = {"yi-intermediate-mechanical-force","yi-fluid-handling", "yi-basic-ranching"},
+			icon_size = 32, prerequisites = {"yi-intermediate-mechanical-force","yi-fluid-handling", "yi-basic-ranching"},
 			effects =
 			{
 				{
@@ -568,7 +568,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-quantum-mechanical-force",
 			icon = "__yi_engines__/graphics/entity/energy2/qr-icon.png",
-			icon_size = 64, prerequisites = {"yi-research", "yi-advanced-mechanical-force", "yi-atomics"},
+			icon_size = 32, prerequisites = {"yi-research", "yi-advanced-mechanical-force", "yi-atomics"},
 			effects =
 			{
 			  {
@@ -642,7 +642,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-dna",
 			icon = "__yi_engines__/graphics/entity/dna_splicer_icon.png",
-			icon_size = 64, prerequisites = {"yi-basic-ranching", "yi-automation-5"},
+			icon_size = 32, prerequisites = {"yi-basic-ranching", "yi-automation-5"},
 			effects =
 			{
 			  {
@@ -780,7 +780,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-automation-5",
 			icon = "__yi_engines__/graphics/entity/factory_var_2_icon.png",
-			icon_size = 64, prerequisites = {"logistics-3", "yi-automation-4"},
+			icon_size = 32, prerequisites = {"logistics-3", "yi-automation-4"},
 			effects =
 			{
 			  {
@@ -812,7 +812,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-engines-trade",
 			icon = "__yi_engines__/graphics/icons/package_empty.png",
-			icon_size = 64, prerequisites = {"yi-automation-4", "yi-reputation", "yi-basic-farming"},
+			icon_size = 32, prerequisites = {"yi-automation-4", "yi-reputation", "yi-basic-farming"},
 			effects =
 			{
 			  {
@@ -878,7 +878,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-advanced-transport",
 			icon = "__yi_engines__/graphics/icons/ubg_icon.png",
-			icon_size = 64, prerequisites = {"logistics-3", "yi-dna", "yi-basic-transport"},
+			icon_size = 32, prerequisites = {"logistics-3", "yi-dna", "yi-basic-transport"},
 			effects =
 			{
 			  {
@@ -917,7 +917,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-automation-6",
 			icon = "__yi_engines__/graphics/entity/factory_var_3_icon.png",
-			icon_size = 64, prerequisites = {"yi-advanced-transport", "yi-automation-5"},
+			icon_size = 32, prerequisites = {"yi-advanced-transport", "yi-automation-5"},
 			effects =
 			{
 			  {
@@ -949,7 +949,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-dna-trading",
 			icon = "__yi_engines__/graphics/icons/buechse_leer.png",
-			icon_size = 64, prerequisites = {"yi-engines-trade", "yi-dna"},
+			icon_size = 32, prerequisites = {"yi-engines-trade", "yi-dna"},
 			effects =
 			{
 			  {
@@ -1075,7 +1075,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-advanced-mechanical-force",
 			icon = "__yi_engines__/graphics/entity/energy2/turbine_icon.png",
-			icon_size = 64, prerequisites = {"yi-intermediate-mechanical-force", "yi-research", "yi-advanced-machines", "advanced-oil-processing"},
+			icon_size = 32, prerequisites = {"yi-intermediate-mechanical-force", "yi-research", "yi-advanced-machines", "advanced-oil-processing"},
 			effects =
 			{
 				{
