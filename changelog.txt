@@ -163,4 +163,6 @@ Date:2024.12.08
 	-Yuoki Advanced Power now requires Yuoki Power tech instead of Nuclear Power tech. Removed Obnisk Reaktor AM-1/1951, Rensuir Turbine, Fusion Fuel Mixer and related recipes from tech.
 	-New Tech Yuoki Advanced Nuclear Power, requires Yuoki Advanced Power tech & Nuclear Power tech. Unlocks Obnisk Reaktor AM-1/1951, Rensuir Turbine, Fusion Fuel Mixer, and related recipes.
 	-Yuoki Atomics now requires Yuoki Advanced Nuclear Power tech instead of Yuoki Advanced Power.
+	-Fixed Yuoki Engines related techs not working cause of a recipe name change
+	-Caught all new/changed recipes in techs, now all Yuoki items should be unlocked by a tech.
 ---------------------------------------------------------------------------------------------------

@@ -84,7 +84,7 @@ local yi_core_techs = {
 
 }
 
-if data.raw.recipe["ye_sturbine_recipe"] ~= nil then
+if data.raw.recipe["ye_sturbine"] ~= nil then
 	require("prototypes.technology.yi_engines")
 
 	-- List of Engines Techs
@@ -121,7 +121,7 @@ if data.raw.recipe["ye_sturbine_recipe"] ~= nil then
 	
 end
 
-if data.raw.recipe["yir_frame_loco_steam_recipe"] ~= nil then
+if data.raw.recipe["yir_frame_loco_steam"] ~= nil then
 	require("prototypes.technology.yi_railways")
 
 	-- List of Engines Techs

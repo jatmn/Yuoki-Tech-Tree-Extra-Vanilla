@@ -32,7 +32,7 @@ if data.raw.recipe["yie_import_sealing"] then
 end
 
 if data.raw.recipe["yie_import_blech_blau"] then
-	table.insert(data.raw.technology["yi-ultimate-reputation"].effects, {type = "unlock-recipe", recipe = "yie_import_blech_blaue"})
+	table.insert(data.raw.technology["yi-ultimate-reputation"].effects, {type = "unlock-recipe", recipe = "yie_import_blech_blau"})
 end
 
 --table.insert(data.raw.technology["xxxx"].effects, {type = "unlock-recipe", recipe = "yyyy"})
@@ -115,7 +115,27 @@ table.insert(tiers,
 				{
 					type = "unlock-recipe",
 					recipe = "ye_water2mf"
-				},	
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-mftrans-shaft"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-mftrans-shaft-ground"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "j-airfilter"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "j-airfilter_dirty"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "j-airfilter_cleaning"
+				},					
 			},
 			unit =
 			{
@@ -162,6 +182,14 @@ table.insert(tiers,
 					type = "unlock-recipe",
 					recipe = "ye_gasmotor"
 				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-mftrans-shaft-red"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-mftrans-shaft-ground-red"
+				},	
 			},
 			unit =
 			{

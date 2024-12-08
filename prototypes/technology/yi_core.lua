@@ -470,6 +470,14 @@ table.insert(tiers,
 					type = "unlock-recipe",
 					recipe = "yi_pipe_underground_green"
 				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-pipe-h"
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "y-pipe-v"
+				},
 			},
 			prerequisites = {"fluid-handling", "yi-raw-materials"},
 			unit =
@@ -801,6 +809,18 @@ table.insert(tiers,
 				type = "unlock-recipe",
 				recipe = "y-pink-module-1"
 			  },
+			  {
+				type = "unlock-recipe",
+				recipe = "y-speed-module-1"
+			  },
+			  {
+				type = "unlock-recipe",
+				recipe = "y-green-module-1"
+			  },
+			  {
+				type = "unlock-recipe",
+				recipe = "y-pink-module-1"
+			  },
 			},
 			unit =
 			{
@@ -888,15 +908,15 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_case"
+				recipe = "y_ammo_case_recipe"
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_plasma"
+				recipe = "y_ammo_plasma_recipe"
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_flame"
+				recipe = "y_ammo_flame_recipe"
 			  },	  
 			},
 			unit =
@@ -1236,7 +1256,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_shell"
+				recipe = "y_ammo_shell_recipe"
 			  },	  
 			},
 			unit =
@@ -1262,7 +1282,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_artillery"
+				recipe = "y_ammo_artillery_recipe"
 			  },  	  
 			},
 			unit =
@@ -1533,6 +1553,14 @@ table.insert(tiers,
 				type = "unlock-recipe",
 				recipe = "y_modul_science"
 			  },
+			  {
+				type = "unlock-recipe",
+				recipe = "y-speed-module-2"
+			  },
+			  {
+				type = "unlock-recipe",
+				recipe = "y-green-module-2"
+			  },
 			},
 			unit =
 			{
@@ -1631,6 +1659,18 @@ table.insert(tiers,
 				{
 					type = "unlock-recipe",
 					recipe = "yi_logistic-robot",
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "j-dl-provider",
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "j-dl-request",
+				},
+				{
+					type = "unlock-recipe",
+					recipe = "j-dl-buffer",
 				},				
 			},
 			unit =
