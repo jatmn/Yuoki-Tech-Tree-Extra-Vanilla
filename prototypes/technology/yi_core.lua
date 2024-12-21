@@ -1101,7 +1101,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-advanced-inserters",
 			icon = "__Yuoki__/graphics/entity/inserters/ins_diagonal.png",
-			icon_size = 64, prerequisites = {"yi-inserters", "stack-inserter"},
+			icon_size = 64, prerequisites = {"yi-inserters", "bulk-inserter"},
 			effects =
 			{
 				{
@@ -1906,7 +1906,7 @@ table.insert(tiers,
 			type = "technology",
 			name = "yi-power-armor-equipment",
 			icon = "__Yuoki__/graphics/armor/lfg13.png",
-			icon_size = 64, prerequisites = {"military-3", "exoskeleton-equipment", "battery-equipment", "personal-laser-defense-equipment", "personal-roboport-equipment", "fusion-reactor-equipment", "energy-shield-equipment", "yi-advanced-machines"},
+			icon_size = 64, prerequisites = {"military-3", "exoskeleton-equipment", "battery-equipment", "personal-laser-defense-equipment", "personal-roboport-equipment", "fission-reactor-equipment", "energy-shield-equipment", "yi-advanced-machines"},
 			effects =
 			{
 			  {

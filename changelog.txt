@@ -166,3 +166,17 @@ Date:2024.12.08
 	-Fixed Yuoki Engines related techs not working cause of a recipe name change
 	-Caught all new/changed recipes in techs, now all Yuoki items should be unlocked by a tech.
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.71
+Date:2024.12.08
+  Changes:
+	-Fix icon size errors caused by Yuoki Engines techs
+---------------------------------------------------------------------------------------------------
+Version: 1.1.72
+Date:2024.12.12
+  Changes:
+	-Fix mod not working on just base Factorio due to referencing a no longer existing technology stack-inserter(only reintroduced in Space Age expansion).
+	---------------------------------------------------------------------------------------------------
+Version: 1.1.73
+Date:2024.12.13
+  Changes:
+	-Fix mod not working on just base Factorio due to referencing a no longer existing technology fusion-reactor-equipment(only reintroduced in Space Age expansion).
