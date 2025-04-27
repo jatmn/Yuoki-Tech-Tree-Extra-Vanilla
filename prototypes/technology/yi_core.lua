@@ -29,7 +29,7 @@ table.insert(tiers,
 				},	
 				{
 					type = "unlock-recipe",
-					recipe = "y-coaldust"
+					recipe = "y-coal-dust"
 				},	
 			},
 			prerequisites = {"automation"},
@@ -109,7 +109,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_c11"
+				recipe = "y_sc11"
 			  },
 			  {
 				type = "unlock-recipe",
@@ -308,11 +308,11 @@ table.insert(tiers,
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y-chip1"
+				recipe = "y-chip-1"
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y-chip2"
+				recipe = "y-chip-2"
 			  },
 			  {
 				type = "unlock-recipe",
@@ -344,7 +344,7 @@ table.insert(tiers,
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y-ammo-acid-medium"
+				recipe = "y-ammo-acid-2"
 			  },
 			  {
 				type = "unlock-recipe",
@@ -580,7 +580,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y-solar-dish"
+				recipe = "y-stirling-solar-dish"
 			  },
 			},
 			unit =
@@ -619,11 +619,11 @@ table.insert(tiers,
 				},
 				{
 					type = "unlock-recipe",
-					recipe = "y-battery-singleuse1"
+					recipe = "y-battery-single-use1"
 				},
 				{
 					type = "unlock-recipe",
-					recipe = "y-battery-singleuse2"
+					recipe = "y-battery-single-use2"
 				},
 			},
 			unit =
@@ -743,7 +743,7 @@ table.insert(tiers,
 				},
 				{
 					type = "unlock-recipe",
-					recipe = "y_inserter_smart",
+					recipe = "y-inserter-smart",
 				},
 				{
 					type = "unlock-recipe",
@@ -844,7 +844,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y-basic-st1-mf"
+				recipe = "y-basic-t1-mf"
 			  },
 			  {
 				type = "unlock-recipe",
@@ -908,15 +908,15 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_case_recipe"
+				recipe = "y_ammo_case"
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_plasma_recipe"
+				recipe = "y_ammo_plasma"
 			  },
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_flame_recipe"
+				recipe = "y_ammo_flame"
 			  },	  
 			},
 			unit =
@@ -1153,7 +1153,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y-gun-turret-mk2"
+				recipe = "y_turret_gun2f12"
 			  },
 			},
 			unit =
@@ -1178,7 +1178,7 @@ table.insert(tiers,
 			{
 				{
 					type = "unlock-recipe",
-					recipe = "y-basic-st2-mf",
+					recipe = "y-basic-t2-mf",
 				},
 				{
 					type = "unlock-recipe",
@@ -1256,8 +1256,8 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_shell_recipe"
-			  },	  
+				recipe = "yi_cannon_shell"
+			  },
 			},
 			unit =
 			{
@@ -1282,7 +1282,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_ammo_artillery_recipe"
+				recipe = "yi_artillery_shell"
 			  },  	  
 			},
 			unit =
@@ -1308,7 +1308,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y-gun-turret-mk3"
+				recipe = "y_turret_gun1f12"
 			  },
 			},
 			unit =
@@ -1501,7 +1501,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_laser_mk1"
+				recipe = "y_turret_laser22f12"
 			  },
 			},
 			unit =
@@ -1715,7 +1715,7 @@ table.insert(tiers,
 				
 				{
 					type = "unlock-recipe",
-					recipe = "y-sgtrade-ic1",
+					recipe = "y-fuel-cell-c",
 				},
 				{
 					type = "unlock-recipe",
@@ -1935,7 +1935,7 @@ table.insert(tiers,
 			  },
 				{
 				type = "unlock-recipe",
-				recipe = "yi_equip_pld"
+				recipe = "yi_pld_equipment"
 			  },
 			  {
 				type = "unlock-recipe",
@@ -2433,11 +2433,11 @@ table.insert(tiers,
 			{
 				{
 					type = "unlock-recipe",
-					recipe = "y-accumulator-mt2",
+					recipe = "y-accumulator-m-t2",
 				},
 				{
 					type = "unlock-recipe",
-					recipe = "y-accumulator-bt2",
+					recipe = "y-accumulator-b-t2",
 				},		
 			},
 			prerequisites = {"yi-advanced-machines", "yi-electric-energy-accumulators-3"},
@@ -2462,7 +2462,7 @@ table.insert(tiers,
 			{
 			  {
 				type = "unlock-recipe",
-				recipe = "y_laser_onhwall"
+				recipe = "y-laser-def-s4"
 			  },
 			},
 			unit =
@@ -2546,10 +2546,6 @@ table.insert(tiers,
 				},
 				{
 					type = "unlock-recipe",
-					recipe = "y_mox2fuel"
-				},
-				{
-					type = "unlock-recipe",
 					recipe = "y_reactor_mf1"
 				},
 				{
@@ -2562,7 +2558,7 @@ table.insert(tiers,
 				},
 				{
 					type = "unlock-recipe",
-					recipe = "y_mox2fuelsplit"
+					recipe = "y_mox2fuelsplited"
 				},
 				{
 					type = "unlock-recipe",
@@ -2830,7 +2826,7 @@ table.insert(tiers,
 			{
 				{
 					type = "unlock-recipe",
-					recipe = "y-accumulator-btx",
+					recipe = "y-accumulator-b-tx",
 				},
 				{
 					type = "unlock-recipe",
